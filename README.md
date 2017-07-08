@@ -30,11 +30,11 @@
         - You will see the list of products
         - You will be prompted to return to the main menu or terminate application
 
-![bamazonViewProducts](images/bamazonManager2.png)
+        ![bamazonViewProducts](images/bamazonManager2.png)
 
     * View Low Inventory
         - You will see the list of products with stock of less than 5 units
         - You will be prompted to return to the main menu or terminate application
 
-![bamazonLowStock](images/bamazonManger3.png)
+        ![bamazonLowStock](images/bamazonManager3.png)
       

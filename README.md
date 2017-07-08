@@ -5,8 +5,8 @@
 1. Run "node bamazonCustomer.js" on command line
 
 2. You will see the list of products. Listed as ID#) ITEM | PRICE: $$ 
-        - Enter product's id
-        - Enter number of units you would like to purchase
+    - Enter product's id
+    - Enter number of units you would like to purchase
 
 3. You will be asked if you want to continue shopping
         - If "yes", you will be returned to step 2

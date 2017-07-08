@@ -32,14 +32,18 @@
 
         ![bamazonViewProducts](images/bamazonManager2.png)
 
-        - You will then be prompted to return to the main menu or terminate application
+        - You will then be prompted to return to the main menu
+            * If "yes", you will be returned to the beginning of Step 2
+            * If "no", application will end
 
     * View Low Inventory
         - You will see the list of products with stock of less than 5 units
 
         ![bamazonLowStock](images/bamazonManager3.png)
 
-        - You will then be prompted to return to the main menu or terminate application
+        - You will then be prompted to return to the main menu
+            * If "yes", you will be returned to the beginning of Step 2
+            * If "no", application will end
     
     * Add to Inventory
         - You will see the list of products for your convenience. Listed as ID#) ITEM | QUANTITY(#)

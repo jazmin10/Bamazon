@@ -2,7 +2,7 @@
 
 ## bamazonCustomer Instructions
 
-1. Run "node bamazonCustomer.js" on command line
+1. Run `node bamazonCustomer.js` on command line
 
 2. You will see the list of products. Listed as ID#) ITEM | PRICE($) 
     - Enter product's id
@@ -21,7 +21,7 @@
 
 ## bamazonManager Instructions
 
-1. Run "node bamazonManager.js" on command line
+1. Run `node bamazonManager.js` on command line
 
 2. Select from the available options:
 
@@ -56,5 +56,28 @@
         ![bamazonAddProduct](images/bamazonManager5.png)
 
         - You can continue adding products if you like, return to the main menu, or terminate the application
+
+## Pseudocode - bamazonSupervisor
+
+1. Create table called departments in MySQL. Details:
+    - Using SQL to create table in the bamazon database
+
+2. Modify products table to include product_sales column. Details:
+    - "ALTER TABLE" command
+
+3. Modify bamazonCustomer.js to reflect product_sales. Details:
+    - In my particular code, where I calculate total cost of items purchased and UPDATE the table, I will also UPDATE product sales
+
+4. bamazonSupervisor.js
+    - Display main menu options: View Product Sales by Department and Create New Department
+    - View Product Sales
+        * READ information from the departments table
+        * Calculate total_profit using over_head_costs and product_sales
+        * Display deparments tables columns AND total_profit calculated to the user
+    - Create New Department
+        * Functionality will be similar to Add New Product from the bamazonManager.js
+        * User will be prompted to add fields
+        * Use mysql npm package to CREATE new row of information
+
 
       

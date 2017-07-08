@@ -1,3 +1,7 @@
+/* ASSIGMENT #12: Bamazon
+Run on MySQL in order to create database and table for bamazonCustomer
+and bamazonManager */
+
 -- Drop bamazon database if it exists
 DROP DATABASE IF EXISTS bamazon;
 

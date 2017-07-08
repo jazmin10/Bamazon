@@ -28,7 +28,7 @@ var totalCost = 0;
 // Displays list of products and then prompts user to select product's id 
 // and the quantity they want to purchase
 function customerMenu(){
-	console.log("Take a look! Products are listed as ID#) ITEM | PRICE: $$");
+	console.log("Take a look! Products are listed as ID#) ITEM | PRICE($)");
 
 	// Query: Reads list of products
 	connection.query("SELECT * FROM products", function(menuErr, menuRes){

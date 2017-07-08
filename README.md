@@ -29,15 +29,17 @@
 
     * View Products for Sale
         - You will see the list of products
-        - You will be prompted to return to the main menu or terminate application
 
         ![bamazonViewProducts](images/bamazonManager2.png)
 
+        - You will then be prompted to return to the main menu or terminate application
+
     * View Low Inventory
         - You will see the list of products with stock of less than 5 units
-        - You will be prompted to return to the main menu or terminate application
 
         ![bamazonLowStock](images/bamazonManager3.png)
+
+        - You will then be prompted to return to the main menu or terminate application
     
     * Add to Inventory
         - You will see the list of products for your convenience. Listed as ID#) ITEM | QUANTITY(#)

@@ -88,7 +88,7 @@ function viewLowInventory(){
 // Displays list of items and prompts user to select a product and the amount of 
 // units they would like to add to the product's stock
 function addInventory(){
-	console.log("Take a look! Products are listed as ID#) ITEM | QUANTITY: #");
+	console.log("Take a look! Products are listed as ID#) ITEM | QUANTITY(#)");
 
 	var ids = [];
 

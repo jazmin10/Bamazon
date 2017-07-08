@@ -17,6 +17,6 @@
 4. Your total cost for the products purchased will be displayed and application will end
 - For example, we purchased 2 headphones for $15/each and 1 lb of bananas for $0.89/each. Thus, total was $30.89
 
-IMAGE HERE
+![bamazonTotalCost](images/bamazonCustomer2.png)
 
 ## bamazonManager Instructions

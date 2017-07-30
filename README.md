@@ -1,6 +1,10 @@
 # Bamazon
 
-## bamazonCustomer Instructions
+### Overview
+
+For this app, I created an Amazon-like storefront with the Node.js and MySQL skills I learned in class that week. The app will take in orders from customers and deplete stock from the store's inventory.
+
+### bamazonCustomer Instructions
 
 1. Run `node bamazonCustomer.js` on command line
 
@@ -19,7 +23,7 @@
 
     ![bamazonTotalCost](images/bamazonCustomer2.png)
 
-## bamazonManager Instructions
+### bamazonManager Instructions
 
 1. Run `node bamazonManager.js` on command line
 
@@ -61,7 +65,7 @@
 
         - You can continue adding products if you like, return to the main menu, or terminate the application
 
-## Pseudocode - bamazonSupervisor
+#### Pseudocode - bamazonSupervisor
 
 1. Create table called departments in MySQL. Details:
     - Using SQL to create table in the bamazon database

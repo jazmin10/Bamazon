@@ -1,4 +1,4 @@
-/* ASSIGMENT #12: Bamazon
+/* Bamazon
 Run node bamazonCustomer.js on the command line */
 
 // GLOBAL VARIABLES =====================================================
